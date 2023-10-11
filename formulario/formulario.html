@@ -1,29 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
-</head>
-<body>
+  </head>
+  <body>
     <form action="formulario.html" method="get">
-        <p>Nombre  <input type="text" name="nombre" size="40"></p>
-        <p>Correo  <input type="text" name="correo" size="40"></p>
-        <p>Residencia  <input type="text" name="residencia" size="25"></p> 
-        <p>C/ <input type="number" name="calle"></p></p>
-        <p>Nº<input type="number" name="calle"></p></p>
+      <fieldset>
+        <legend>Datos personales</legend>
+        <p>Nombre <input type="text" name="nombre" size="40" required></p>
+        <p>Edad <input type="email" name="edad" size="40" required></p>
+        <p>Instituto <input type="text" name="Instituto" size="25" required></p>
+        <p>Grado <input type="number" name="grado" size="10" required></p>
+        <p>Clase <input type="number" name="clase" size="10" required></p>
+        <p>Código postal <input type="number" name="Código postal" size="10" required></p>
 
         <p>
-            Sexo:
-            <input type="radio" name="hm" value="h"> Hombre
-            <input type="radio" name="hm" value="m"> Mujer
+          Sexo:
+          <input type="radio" name="hm" value="h" > Hombre
+          <input type="radio" name="hm" value="m" > Mujer
+        </p>
+      </fieldset>
 
+      <h1>¿Crees que adivinaras todas para ganar el premio?</h1>
+
+      <fieldset>
+        <legend>NBA</legend>
+        <p>Mayor ganador de anillos
+            <input type="radio" name="p1" value="1"> Michael Jordan
+            <input type="radio" name="p1" value="2"> Bill Russell
+            <input type="radio" name="p1" value="3"> Lebron James
         </p>
 
-        <p>Color camiseta  <input type="color" name="colorElegido"></p>
+        <p>Quien no es el mayor anotador de triples
+            <input type="radio" name="p2" value="1"> Dell Curry
+            <input type="radio" name="p2" value="2"> Chef Curry
+            <input type="radio" name="p2" value="3"> Stephen Curry
+        </p>
 
+        <p>Jugador con mas triples dobles
+            <input type="radio" name="p3" value="1"> Lebron James
+            <input type="radio" name="p3" value="2"> Russell Westbrook
+            <input type="radio" name="p3" value="3"> Nikola Jockić
+        </p>
+      </fieldset>
 
+      <fieldset>
+        <legend>Fútbol</legend>
+        <p>Mayor ganador de balones de oro
+            <input type="radio" name="p1" value="1"> Cristiano Ronaldo
+            <input type="radio" name="p1" value="2"> Johan Cruyff
+            <input type="radio" name="p1" value="3"> Lionel Messi
+        </p>
 
+        <p>Que país ganó el último mundial
+            <input type="radio" name="p2" value="1"> Argentina
+            <input type="radio" name="p2" value="2"> España
+            <input type="radio" name="p2" value="3"> Francia
+        </p>
+
+        <p>Jugador con mas triples dobles
+            <input type="radio" name="p3" value="1"> Lebron James
+            <input type="radio" name="p3" value="2"> Russell Westbrook
+            <input type="radio" name="p3" value="3"> Nikola Jockić
+        </p>
+      </fieldset>
+
+      <input type="submit"> <input type="reset">
+
+      <p>Color camiseta <input type="color" name="colorElegido" /></p>
     </form>
-</body>
+  </body>
 </html>

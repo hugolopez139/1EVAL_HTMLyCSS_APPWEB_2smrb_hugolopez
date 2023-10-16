@@ -1,0 +1,9 @@
+/* Asi se hace un comentario en CSS */
+h1, mark, pre{
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+body{
+    background-color: rgb(133,133,133);
+}

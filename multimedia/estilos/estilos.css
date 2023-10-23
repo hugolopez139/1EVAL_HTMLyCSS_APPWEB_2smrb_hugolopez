@@ -1,11 +1,12 @@
 h1{
-    color: aqua;
-    background-color: blueviolet;
+    color: red;
+    background-color: white;
 }
 
 #especial{
     color: black;
     background-color: white;
+    width: 150px;
 }
 
 .B{
@@ -14,4 +15,16 @@ h1{
 
 .R{
     color: red;
+}
+
+#furbo {
+    border: 1px;
+    padding: 12em;
+    color: white;
+    background-image: url(https://caracoltv.brightspotcdn.com/dims4/default/3db5099/2147483647/strip/false/crop/1024x759+0+0/resize/1200x889!/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.amazonaws.com%2F96%2F38%2Fb121378449b1bf45b6dfe494fb4e%2Fgettyimages-1224130342.jpg);
+    background-size: contain;
+}
+
+html {
+    background-image: url(https://media.istockphoto.com/id/865435914/es/vector/oficial-vector-bandera-de-catalu%C3%B1a.jpg?s=612x612&w=0&k=20&c=OkNFWRul9_aH6Z_CrTyk1_3tOfpsQI7FL6zzeZdxdxA=);
 }

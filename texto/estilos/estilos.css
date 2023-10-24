@@ -1,9 +1,16 @@
 /* Asi se hace un comentario en CSS */
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
 h1, mark, pre{
-    color: blueviolet;
-    background-color: aquamarine;
+    color: white;
+    background-color: rgb(133,133,133);
 }
 
 body{
     background-color: rgb(133,133,133);
+}
+
+.titulo {
+    font-family: 'Sedgwick Ave Display', sans-serif;
+    width: 100px;
+    right: 1000px;
 }

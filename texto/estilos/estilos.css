@@ -14,3 +14,21 @@ body{
     width: 100px;
     right: 1000px;
 }
+
+p.p1 {
+    background-color: cornsilk;
+    width: 130px;
+}
+
+p.p2 {
+    background-color: burlywood;
+    width: 130px;
+}
+
+p[class="mayusculas"] {
+    text-transform: capitalize;
+}
+
+a {
+    background-color: blueviolet;
+}

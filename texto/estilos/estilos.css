@@ -27,8 +27,32 @@ p.p2 {
 
 p[class="mayusculas"] {
     text-transform: capitalize;
+    color: white;
 }
 
-a {
+a:link {
     background-color: blueviolet;
+    color: white;
+}
+
+a:visited {
+    background-color: violet;
+    color: white;
+}
+
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 700px;
+
+}
+
+.poema {
+    margin-right: 200px;
+    justify-content: top;
+}
+
+.cr7 {
+    color: yellow;
 }

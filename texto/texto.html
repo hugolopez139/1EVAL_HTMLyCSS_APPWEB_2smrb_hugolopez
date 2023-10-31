@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poema</title>
     <link rel="stylesheet" href="estilos/estilos.css">
 </head>
-<body>
+<div>
     <!--Asi se hace un comentario en HTML-->
- <h1>POEMA</h1>
+    <h1>POEMA</h1>
 
- <p class="titulo">Rafael Alberti</p>
-    <pre>
+    <p class="titulo">Rafael Alberti</p>
+
+    <div>
+
+        <div class="preguntas">
+            <fieldset>
+                <legend>Preguntas</legend>
+                <p>¿Quien escribió este poema?</p>
+                <input type="radio" name="p1" value="1"> Pocoyo
+                <input type="radio" name="p1" value="2"> Rafael Alberti
+                <input type="radio" name="p1" value="3"> Rafael Alberto
+
+                <p>¿Donde hay un colegio a su nombre?</p>
+                <input type="radio" name="p2" value="1"> Rivas-Vaciamadrid
+                <input type="radio" name="p2" value="2"> Vicálvaro
+                <input type="radio" name="p2" value="3"> Arganda
+            </fieldset>
+        </div>
+
+    <pre class="poema">
         El mar. <strong>La mar.</strong> 
         El mar. ¡Sólo la mar!
         ¿Por qué me trajiste, padre,
@@ -29,17 +48,22 @@
         siempre me la inflaba el viento
         al divisar la escollera!
     </pre>
-    
-    <mark><small><strong>(Rafael Alberti)</strong></small></mark>
+
+        <mark><small><strong>(Rafael Alberti)</strong></small></mark>
+
+    </div>
 
     <p class="p1">Este es el parrafo 1</p>
     <p class="p2">Este es el parrafo 2</p>
-    <p class="mayusculas">hola soy el bicho</p>
+    <p class="mayusculas">"<span class="cr7">hola soy el bicho</span>"</p>
 
     <p>Hola soy <span><a href="texto.html">vegeta 777</a></span> guapisimos</p>
 
 
-    
-</p>
-</body>
+
+
+
+    </p>
+    </body>
+
 </html>

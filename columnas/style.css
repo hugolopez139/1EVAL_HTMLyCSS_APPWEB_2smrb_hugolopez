@@ -1,0 +1,15 @@
+img {
+    width: 10px;
+    height: 100px;
+}
+
+.columna {
+    column-count: 2;
+}
+.logo {
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+}
